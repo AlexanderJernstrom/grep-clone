@@ -34,7 +34,7 @@ fn main() {
         };
 
         if line.contains(&search_string.trim()) {
-            println!("'{}' was found in this line: {}", search_string, line);
+            println!("'{}' was found here: {}", search_string.trim(), line);
         }
     }
 }
